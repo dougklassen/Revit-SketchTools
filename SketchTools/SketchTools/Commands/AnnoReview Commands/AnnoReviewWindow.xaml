@@ -1,0 +1,12 @@
+﻿<Window x:Class="BCRA.Revit.AnnoReviewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="500" Width="500">
+    <DockPanel LastChildFill="True">
+        <TextBlock Height="30" Name="queryResultTextBlock" DockPanel.Dock="Top" Padding="5" />
+        <StackPanel Height="30" DockPanel.Dock="Bottom" Orientation="Horizontal" FlowDirection="RightToLeft">
+            <Button Content="Close" Height="23" Name="closeButton" Width="75" Margin="10,0" Click="closeButton_Click" />
+            <Button Content="Flag All" Height="23" Name="flagButton" Width="75" Margin="10,0" Click="flagButton_Click" />
+        </StackPanel>
+        <DataGrid Name="queryResultDataGrid" DockPanel.Dock="Bottom"/>
+    </DockPanel>
+</Window>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>BCRARVT</Name>
+    <Assembly>C:\2013-BCRA-RVT\Addins\BCRARVT.dll</Assembly>
+    <AddInId>2a216e19-ff51-43bb-af91-698a4a051f2e</AddInId>
+    <FullClassName>BCRA.Revit.StartUpApplication</FullClassName>
+    <VendorId>BCRA</VendorId>
+    <VendorDescription>BCRA</VendorDescription>
+  </AddIn>
+</RevitAddIns>
